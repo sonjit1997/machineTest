@@ -1,0 +1,29 @@
+.tableCell {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 3px solid white;
+  width: 130px;
+  height: 130px;
+}
+
+.cellContent {
+  text-align: center;
+  visibility: hidden;
+}
+.cellDragged {
+  opacity: 0.5; /* Example: Reduce opacity to indicate dragging */
+}
+.cellVisible {
+  visibility: visible;
+}
+
+.image {
+  width: 45px;
+  height: 45px;
+}
+
+.title {
+  margin: 0;
+  font-size: 12px;
+}
